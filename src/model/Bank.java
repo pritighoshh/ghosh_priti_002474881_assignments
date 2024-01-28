@@ -10,16 +10,25 @@ package model;
  */
 public class Bank {
     
+    private String name;
     private String accountno;
     private String customerid;
     private String accounttype;
     private String accountbalance;
     private String branch;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getAccountno() {
         return accountno;
     }
-
+    
     public void setAccountno(String accountno) {
         this.accountno = accountno;
     }
@@ -58,7 +67,7 @@ public class Bank {
     
     @Override
     public String toString(){
-        return accountno;
+        return name;
         
     }
     

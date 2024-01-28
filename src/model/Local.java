@@ -10,12 +10,22 @@ package model;
  */
 public class Local {
     
+    private String name;
     private String apartment;
     private String city;
     private String state;
     private String zipcode;
     private String country;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    
     public String getApartment() {
         return apartment;
     }
@@ -58,7 +68,7 @@ public class Local {
     
     @Override
     public String toString(){
-        return apartment;
+        return name;
         
     }
 }
