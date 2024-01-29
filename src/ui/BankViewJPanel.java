@@ -266,11 +266,11 @@ public class BankViewJPanel extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnViewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnViewActionPerformed
-        // TODO add your handling code here:
+          // TODO add your handling code here:
         int selectedRowIndex = tblBankAccount.getSelectedRow();
 
         if (selectedRowIndex<0){
-            JOptionPane.showMessageDialog(this, "Please select a row to delete.");
+            JOptionPane.showMessageDialog(this, "Please select a row to view.");
             return;
         }
 

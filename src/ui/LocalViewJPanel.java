@@ -256,7 +256,7 @@ public class LocalViewJPanel extends javax.swing.JPanel {
         int selectedRowIndex = tblLocalAddress.getSelectedRow();
 
         if (selectedRowIndex<0){
-            JOptionPane.showMessageDialog(this, "Please select a row to delete.");
+            JOptionPane.showMessageDialog(this, "Please select a row to view.");
             return;
         }
 

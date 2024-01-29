@@ -249,7 +249,7 @@ public class HomeViewJPanel extends javax.swing.JPanel {
         int selectedRowIndex = tblHomeAddress.getSelectedRow();
 
         if (selectedRowIndex<0){
-            JOptionPane.showMessageDialog(this, "Please select a row to delete.");
+            JOptionPane.showMessageDialog(this, "Please select a row to view.");
             return;
         }
 
