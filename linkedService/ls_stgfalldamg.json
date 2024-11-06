@@ -1,0 +1,10 @@
+{
+	"name": "ls_stgfalldamg",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://stgfalldamg.dfs.core.windows.net/"
+		}
+	}
+}
