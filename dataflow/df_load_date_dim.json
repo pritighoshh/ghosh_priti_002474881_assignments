@@ -6,10 +6,13 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "ds_snowflake_stage_spl",
+						"referenceName": "ls_dim_breed",
 						"type": "DatasetReference"
 					},
 					"name": "sourcesnowflakestaging"
+				},
+				{
+					"name": "source1"
 				}
 			],
 			"sinks": [],
@@ -17,7 +20,9 @@
 			"scriptLines": [
 				"source(allowSchemaDrift: false,",
 				"     validateSchema: false,",
-				"     format: 'table') ~> sourcesnowflakestaging"
+				"     format: 'table') ~> sourcesnowflakestaging",
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false) ~> source1"
 			]
 		}
 	}
