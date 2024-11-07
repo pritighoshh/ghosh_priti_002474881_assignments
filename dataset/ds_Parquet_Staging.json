@@ -1,5 +1,5 @@
 {
-	"name": "Parquet_Staging",
+	"name": "ds_Parquet_Staging",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_stgfalldamg",
