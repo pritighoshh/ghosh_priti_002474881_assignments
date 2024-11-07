@@ -9,7 +9,7 @@
 		"type": "SnowflakeV2Table",
 		"schema": [],
 		"typeProperties": {
-			"schema": "DEMO7370",
+			"schema": "STAGE",
 			"table": "STG_SEATTLEPETLICENSES"
 		}
 	}
