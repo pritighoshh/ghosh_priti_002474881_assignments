@@ -1,0 +1,19 @@
+{
+	"name": "Parquet_Staging",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_stgfalldamg",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Seattle_Pet_Licenses.parquet"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
