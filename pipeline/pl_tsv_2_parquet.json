@@ -208,16 +208,6 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "License_Issue_Date",
-									"type": "String"
-								},
-								"sink": {
-									"name": "LICENSE_ISSUE_DATE",
-									"type": "DateTime"
-								}
-							},
-							{
-								"source": {
 									"name": "License_Number",
 									"type": "String"
 								},
