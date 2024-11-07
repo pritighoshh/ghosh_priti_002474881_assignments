@@ -1,0 +1,16 @@
+{
+	"name": "ds_snowflake_stage_spl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_Snowflake_demo1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "DEMO7370",
+			"table": "STG_SEATTLEPETLICENSES"
+		}
+	}
+}
