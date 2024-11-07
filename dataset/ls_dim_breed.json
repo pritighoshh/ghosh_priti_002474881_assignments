@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "STAGE",
-			"table": "BREED_DIM"
+			"table": "DATE_DIM"
 		}
 	}
 }
