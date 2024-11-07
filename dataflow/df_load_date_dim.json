@@ -1,0 +1,24 @@
+{
+	"name": "df_load_date_dim",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "ds_snowflake_stage_spl",
+						"type": "DatasetReference"
+					},
+					"name": "sourcesnowflakestaging"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(allowSchemaDrift: false,",
+				"     validateSchema: false,",
+				"     format: 'table') ~> sourcesnowflakestaging"
+			]
+		}
+	}
+}
