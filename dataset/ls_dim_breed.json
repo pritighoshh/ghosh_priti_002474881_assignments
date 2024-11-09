@@ -9,8 +9,8 @@
 		"type": "SnowflakeV2Table",
 		"schema": [],
 		"typeProperties": {
-			"schema": "STAGE",
-			"table": "DATE_DIM"
+			"schema": "DEMO7370",
+			"table": "BREED_DIM"
 		}
 	}
 }
