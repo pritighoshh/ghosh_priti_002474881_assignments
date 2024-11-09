@@ -1,0 +1,43 @@
+{
+	"name": "ls_dim_location",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_Snowflake_demo1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "LOCATION_SK",
+				"type": "NUMBER",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "ZIP",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "CITY",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "STATE",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "DATE_TO_WAREHOUSE",
+				"type": "DATE"
+			},
+			{
+				"name": "DI_JOBID",
+				"type": "VARCHAR"
+			}
+		],
+		"typeProperties": {
+			"schema": "DEMO7370",
+			"table": "LOCATION_DIM"
+		}
+	}
+}
