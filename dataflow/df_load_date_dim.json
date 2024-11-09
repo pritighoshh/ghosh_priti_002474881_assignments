@@ -6,7 +6,7 @@
 			"sources": [
 				{
 					"dataset": {
-						"referenceName": "ls_dim_breed",
+						"referenceName": "ds_snowflake_stage_spl",
 						"type": "DatasetReference"
 					},
 					"name": "sourcesnowflakestaging"
