@@ -6,12 +6,9 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"Directory": {
-				"type": "string"
-			},
 			"FileName": {
 				"type": "string",
-				"defaultValue": "Seattle_Pet_Licenses.tsv"
+				"defaultValue": "geo-data.csv"
 			}
 		},
 		"annotations": [],
@@ -19,10 +16,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": {
-					"value": "@dataset().FileName",
-					"type": "Expression"
-				},
+				"fileName": "geo-data.csv",
 				"fileSystem": "bronze"
 			},
 			"columnDelimiter": ",",
